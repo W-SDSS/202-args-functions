@@ -13,16 +13,14 @@ assert centralTendency(5, 5, 8, 10, 4, 7, 5, 6, 9, 9, 5, 4, 7, 7, 3, 8, 2, 3, 5,
 ```
 '''
 import statistics
-def centralTendency(*list):
-  list.sort()
-  n=len(list)
-  if n%2==0:
-    median=(list[n/2 -1]+list[n/2])/2
-  else:
-    median=list[n/2]
-  mode=statistics.list()
-  midpoint=mid_index.list()
+def centralTendency(*w):
+  w=list(w)
+  w.sort()
+  length=len(w)
+  median=statistics.median(w)
+  mode=statistics.mode(w)
+  midpoint=round(sum(w)/length,2)
   return (median, mode, midpoint)
 
-assert centralTendency(8, 6, 6, 4, 6, 7, 10, 3, 1, 3, 9, 7, 9, 6, 5, 6, 5, 1, 6, 3) == (4.5,6,5.5)
+assert centralTendency(8, 6, 6, 4, 6, 7, 10, 3, 1, 3, 9, 7, 9, 6, 5, 6, 5, 1, 6, 3) == (4.5,6,5.5) sum111
 assert centralTendency(5, 5, 8, 10, 4, 7, 5, 6, 9, 9, 5, 4, 7, 7, 3, 8, 2, 3, 5, 9) == (5,5,6)
