@@ -7,31 +7,31 @@ Your assignment is to
 1. Find an article appropriate to your level of understanding that helps you decide if one method is better than the others
 https://www.geeksforgeeks.org/maths/measures-of-central-tendency/
 https://cacco.co.jp/datascience/media/statistics/39/
+
 2. Think about and describe situations where one measure would be more appropriate/useful than another.
 Mean=平均値
-In mathematics, the mean (usually the arithmetic mean) is the sum of a set of numbers divided by the number of values, giving a central or “average” value.
-extreme numbers ni affect sareru  -  extreme numbers が ない ときに つかうといい
-ex)例えば、家庭の月々の支出を管理する際に、過去数ヶ月の支出の平均を計算することで、今後の予算を立てやすくなります。また、健康管理においても、体重や血圧の平均値を把握することで、健康状態の変化を追跡しやすくなります。
+mean is the sum of a set of data divided by the number of data.
+Mean is apppropriate when the data does not have extreme values, because it can be affected by extremely low or high values.
+For example, when managing monthly household expenses, calculating the mean of the past months spending would make it easier to plan budget in the future.
 
 Median=中央値
-The median is the middle number in a set of data
-extreme numbers ni affect srenai - extreme numbers  が ふくまれている とき 
-ex)年収は0円未満にはなりませんが、上には数千万円、数億円という人が存在します。この少数の高額所得者が平均を押し上げるため、平均年収は、実際の「真ん中の人」の年収よりかなり高く出るのです。
+The median is the middle data in a set of data.
+Median is appropriate when the data containes extreme values, because it does not affected by extremely high or low value. 
+It is useful when calculatung the average of salary, because few extremely high earner can raise the average, which making it higher than the actual middle saraly.
 
 Mode=最頻値
-The mode is the value that appears most frequently in a set of numbers or data
-the most frequent value を しりたいとき
-ex)販売では、最も売れているサイズ、色、商品カテゴリを調べることで、在庫計画や広告の方針を決めやすくなります。たとえば、TシャツのサイズでMが最頻値なら、Mサイズを多めに仕入れる判断につながります。
-アンケートでは、最も多く選ばれた回答を見ることで、利用者の傾向をつかめます。満足度調査で「満足」が最頻値なら、多くの回答者が肯定的に評価していると考えられます。
+The mode is the value that appears most frequently in a set of numbers or data.
+Mode is appropriate when we want to know the most common value, because it allow us to find trends.
+It is useful in a saling because by finding the most popular sizen adn colours, it become easier to decide which products to stock.
 
 Midpoint=中点
 A midpoint is the point that lies exactly halfway between the endpoints of a line segment, dividing it into two equal parts.
-max valueとmin value の tゆうかん を しりたいとき 
-ex)シーソーの支点：同じ重さの2人がつり合うのは、支点が板のまん中にあるとき
+Midpoint is appropriate when we want to know the middle value between highest and lowest values, because it can ignor all other values.
+
+ex)ともだちとじぶん の いえから tようど はんぶん の ところで あいたいとき なぜなら よけいに あるきたくないから
 
 
-3. Write a paragraph here that discusses your answer.
-
-which mean, median, mode and midpoint is a better measure of central tendency (finding an *average*)
-
-Measures of central tendency help summarize large datasets with a single representative value, making patterns easier to understand
+3. Write a paragraph here that discusses your answer. which mean, median, mode and midpoint is a better measure of central tendency (finding an *average*)
+I think that four measurements of central tendency have each appropriate use depend on the type of data.
+The mean is the best when finding average of monthly expenses and test scores, where exreme value is not included.(extreme valueが containされてない けいこう に ある)
+The median is used to find salary
